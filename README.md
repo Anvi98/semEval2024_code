@@ -5,13 +5,13 @@ A shared task on automatically detecting the degree of semantic relatedness betw
 Link of the shared task: [SemEval2024](https://github.com/semantic-textual-relatedness/Semantic_Relatedness_SemEval2024)
 
 ## Main objective
-The main objective for us, was to identify and find features and explainable way of the impact of those features in predicting semantic textual similarity in English.
+The main purpose for us, was to identify and find features and explainable ways of the impact of those features in predicting semantic textual similarity in English.
 
 ## Brief Methodology
-In this study, our objective is to predict semantic textual relatedness between two texts. We made
+In this study, the objective is to predict semantic textual relatedness between two texts. We made
 two key assumptions:
 - We refrained from preprocessing the corpus to preserve sentence structure, essential for information retrieval and semantic identification (Hirst, 1987);
-- We intentionally excluded Large Language Models (LLMs) from experiments, anticipating challenges in interpreting specific features contributing to semantic identification due to their contextual abilities and complexity.
+- We intentionally excluded Large Language Models (LLMs) from experiments(fine-tuning), anticipating challenges in interpreting specific features contributing to semantic identification due to their contextual abilities and complexity.
 
 Below is the diagram of our method:
 
