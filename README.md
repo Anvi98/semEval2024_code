@@ -19,6 +19,8 @@ Below is the diagram of our method:
 ### Requirements
 To be able to reproduce the work, you will need to create a virtual environment and install the dependencies we  used. The main ones are: scikit-learn, spacy, nltk and sentence_transformers. But it is better, you install the dependencies from the requirements.txt in the folder. For the jupyer notebook code, it will be easy to know the dependencies needed.
 
+NB: The OS under we perform the experiment is **LINUX UBUNTU 22.04**, concerning the script.
+
 So, first thing is to clone the repo, and set it locally:
 ``` 
 git clone https://github.com/Anvi98/semEval2024_code.github 
