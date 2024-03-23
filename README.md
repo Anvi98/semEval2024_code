@@ -1,6 +1,8 @@
 # semEval2024: Semantic Textual Relatedness - Pinealai Code 
 ## Description Task 1 English
-A shared task on automatically detecting the degree of semantic relatedness between pairs of sentences. New textual datasets will be provided for Afrikaans, Algerian Arabic, Amharic, English, Hausa, Hindi, Indonesian, Kinyarwanda, Marathi, Moroccan Arabic, Modern Standard Arabic, Punjabi, Spanish, and Telugu. 
+A shared task on automatically detecting the degree of semantic relatedness between pairs of sentences. New textual datasets will be provided for Afrikaans, Algerian Arabic, Amharic, English, Hausa, Hindi, Indonesian, Kinyarwanda, Marathi, Moroccan Arabic, Modern Standard Arabic, Punjabi, Spanish, and Telugu.
+
+Link of the shared task: [SemEval2024](https://github.com/semantic-textual-relatedness/Semantic_Relatedness_SemEval2024)
 
 ## Main objective
 The main objective for us, was to identify and find features and explainable way of the impact of those features in predicting semantic textual similarity in English.
@@ -19,7 +21,7 @@ Below is the diagram of our method:
 ### Requirements
 To be able to reproduce the work, you will need to create a virtual environment and install the dependencies we  used. The main ones are: scikit-learn, spacy, nltk and sentence_transformers. But it is better, you install the dependencies from the requirements.txt in the folder. For the jupyer notebook code, it will be easy to know the dependencies needed.
 
-NB: The OS under we perform the experiment is **LINUX UBUNTU 22.04**, concerning the script.
+NB: The OS under we perform the experiment is **LINUX UBUNTU 22.04**, concerning the scripts.
 
 So, first thing is to clone the repo, and set it locally:
 ``` 
