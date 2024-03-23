@@ -17,13 +17,13 @@ Below is the diagram of our method:
 
 ## How to reproduce ?
 ### Requirements
-to be able to reproduce the work, you will need to create a virtual environment and install the dependencies we  used. The main ones are: scikit-learn, spacy, nltk and sentence_transformers. But it is better, you install the dependencies from the requirements.txt in the folder. For the jupyer notebook code, it will be easy to know the dependencies needed.
+To be able to reproduce the work, you will need to create a virtual environment and install the dependencies we  used. The main ones are: scikit-learn, spacy, nltk and sentence_transformers. But it is better, you install the dependencies from the requirements.txt in the folder. For the jupyer notebook code, it will be easy to know the dependencies needed.
 
 So, first thing is to clone the repo, and set it locally:
 ``` 
 git clone https://github.com/Anvi98/semEval2024_code.github 
 ```
-Create the virtual environment and activate it:
+Create the virtual environment and activate it. (you need to be located in the folder):
 ``` 
 python3 -m venv env 
 source env/bin/activate
@@ -32,7 +32,7 @@ Then, install the dependencies:
 ``` 
 pip3 install -r requirements.txt
 ``` 
-After installing, the dependencies, everything is set. You will be able to run this files:
+After installing, the dependencies, everything is set. You will be able to run these files:
 - embed.py (Extract Bert embedding)
 - fuzzy_h.py (Computed Levenshtein distance of pair of sentences)
 - syntactic_features.py (Extract syntactic features of pair of sentences)
