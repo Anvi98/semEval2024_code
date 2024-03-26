@@ -18,7 +18,7 @@ Below is the diagram of our method:
 ![Diagram of Pinealai Methodology](Method-STR.png "Pinealai Methodology")
 
 ## How to use the Repo?
-You don't need to run everything. If you set up the environment correctly, you can run the "synt.py" to get the models' performances in your terminal. The generated features in the repo will be used automatically for this purpose.
+You don't need to run everything. If you set up the environment correctly, you can run the "synt.py" to get the models' performances in your terminal. The generated features in the repo will be used automatically for this purpose. The code is quiet really simple to understand no fancy classes have been created and we added some comments too.
 
 ## How to reproduce The experiment and Improve it?
 ### Requirements
@@ -26,6 +26,7 @@ To be able to reproduce the work, you will need to create a virtual environment 
 
 NB: The OS under which we perform the experiments is **LINUX UBUNTU 22.04**, concerning the scripts.
 
+### Set up of the environment
 So, the first thing is to clone the repo, and set it locally:
 ``` 
 git clone https://github.com/Anvi98/semEval2024_code.github 
@@ -38,7 +39,8 @@ source env/bin/activate
 Then, install the dependencies. (type 'pip' if not using python3):
 ``` 
 pip3 install -r requirements.txt
-``` 
+```
+### Start Working on those files and improve them
 After installing, the dependencies, everything is set. You will be able to run these files:
 - embed.py (Extract Bert embedding)
 - fuzzy_h.py (Computed Levenshtein distance of pair of sentences)
